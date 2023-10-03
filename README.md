@@ -32,7 +32,7 @@ you will need to replace [answer1.c] with what you have found in [challenge.c].
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/your-project.git
+git clone https://github.com/GroodInWar/Reverse_Engineering.git
 
 # Change to the project directory
 cd Challenge1
