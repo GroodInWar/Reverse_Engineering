@@ -2,7 +2,8 @@
 
 The challenge is to find what program in C was written for [challenge1.c] to achieve the assembly 
 code in [challenge1.S]. The challenge also has an encryption/decryption approach to the challenge
-for finding the contents of the file [challenge1.c].
+for finding the contents of the file [challenge1.c]. Don't open any file until you have run 
+"$make begin".
 
 ## Table of Contents
 
