@@ -1,6 +1,1 @@
-#include <stdio.h>
-
-int main() {
-    printf("Hello World\n");
-    return 0;
-}
+]$)'0 Zv./$*h#xDD$)/Z($)bcZ6DZZZZ+-$)/!b\ ''*Z*-')\cuDZZZZ- /0-)ZjuD8

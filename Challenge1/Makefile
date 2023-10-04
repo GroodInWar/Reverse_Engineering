@@ -32,10 +32,4 @@ encrypt_challenge1: encrypt challenge1.c
 test: prepare challenge1.S answer1.S
 	./compare_files challenge1.S answer1.S
 
-clean:
-	rm -f compare_files answer1.S encryption Compare_Output.txt
-
-redo:
-	make reprepare
-
-.PHONY: prepare clean encrypt_challenge1 redo prepare_steps
+.PHONY: prepare encrypt_challenge1 prepare_steps

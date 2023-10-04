@@ -9,7 +9,7 @@ int main(int argc, char* argv[]) {
         return 1;
     }
 
-    int key = (int)time(NULL);
+    int key = (int)time(NULL) % 127;
     printf("Time in seconds of when the file %s was encrypted: %d\n", argv[1], key);
 
 

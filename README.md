@@ -22,8 +22,6 @@ for finding the contents of the file [challenge1.c]. Don't open any file until y
 - Run "$make begin" to initiate your code for the challenge. 
 - DO NOT run "$make begin" twice.
 - Run "$make test" to test your code.
-- Run "$make clean" to clean object files and [answer1.S].
-- Run "$make redo" to recover the object files and an empty [answer1.S] file.
 - Through decryption you will not receive a percentage of how close to the original code you are,
 you will need to replace [answer1.c] with what you have found in [challenge.c].
 

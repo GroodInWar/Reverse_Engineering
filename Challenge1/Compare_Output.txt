@@ -1,0 +1,120 @@
+Files differ at line 2:
+File challenge1.S: 	.section	.rodata
+File answer1.S: 	.ident	"GCC: (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0"
+
+Files differ at line 3:
+File challenge1.S: .LC0:
+File answer1.S: 	.section	.note.GNU-stack,"",@progbits
+
+Files differ at line 4:
+File challenge1.S: 	.string	"Hello World"
+File answer1.S: 	.section	.note.gnu.property,"a"
+
+Files differ at line 5:
+File challenge1.S: 	.text
+File answer1.S: 	.align 8
+
+Files differ at line 6:
+File challenge1.S: 	.globl	main
+File answer1.S: 	.long	1f - 0f
+
+Files differ at line 7:
+File challenge1.S: 	.type	main, @function
+File answer1.S: 	.long	4f - 1f
+
+Files differ at line 8:
+File challenge1.S: main:
+File answer1.S: 	.long	5
+
+Files differ at line 9:
+File challenge1.S: .LFB0:
+File answer1.S: 0:
+
+Files differ at line 10:
+File challenge1.S: 	.cfi_startproc
+File answer1.S: 	.string	"GNU"
+
+Files differ at line 11:
+File challenge1.S: 	endbr64
+File answer1.S: 1:
+
+Files differ at line 12:
+File challenge1.S: 	pushq	%rbp
+File answer1.S: 	.align 8
+
+Files differ at line 13:
+File challenge1.S: 	.cfi_def_cfa_offset 16
+File answer1.S: 	.long	0xc0000002
+
+Files differ at line 14:
+File challenge1.S: 	.cfi_offset 6, -16
+File answer1.S: 	.long	3f - 2f
+
+Files differ at line 15:
+File challenge1.S: 	movq	%rsp, %rbp
+File answer1.S: 2:
+
+Files differ at line 16:
+File challenge1.S: 	.cfi_def_cfa_register 6
+File answer1.S: 	.long	0x3
+
+Files differ at line 17:
+File challenge1.S: 	leaq	.LC0(%rip), %rax
+File answer1.S: 3:
+
+Files differ at line 18:
+File challenge1.S: 	movq	%rax, %rdi
+File answer1.S: 	.align 8
+
+Files differ at line 19:
+File challenge1.S: 	call	puts@PLT
+File answer1.S: 4:
+
+Missing line at 20: 	popq	%rbp
+
+Missing line at 21: 	.cfi_def_cfa 7, 8
+
+Missing line at 22: 	ret
+
+Missing line at 23: 	.cfi_endproc
+
+Missing line at 24: .LFE0:
+
+Missing line at 25: 	.size	main, .-main
+
+Missing line at 26: 	.ident	"GCC: (Ubuntu 11.4.0-1ubuntu1~22.04) 11.4.0"
+
+Missing line at 27: 	.section	.note.GNU-stack,"",@progbits
+
+Missing line at 28: 	.section	.note.gnu.property,"a"
+
+Missing line at 29: 	.align 8
+
+Missing line at 30: 	.long	1f - 0f
+
+Missing line at 31: 	.long	4f - 1f
+
+Missing line at 32: 	.long	5
+
+Missing line at 33: 0:
+
+Missing line at 34: 	.string	"GNU"
+
+Missing line at 35: 1:
+
+Missing line at 36: 	.align 8
+
+Missing line at 37: 	.long	0xc0000002
+
+Missing line at 38: 	.long	3f - 2f
+
+Missing line at 39: 2:
+
+Missing line at 40: 	.long	0x3
+
+Missing line at 41: 3:
+
+Missing line at 42: 	.align 8
+
+Missing line at 43: 4:
+
