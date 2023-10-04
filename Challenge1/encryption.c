@@ -9,10 +9,9 @@ int main(int argc, char* argv[]) {
         return 1;
     }
 
-    printf("Time in seconds of when the file %s was encrypted: %ld\n", argv[1], time(NULL));
-    srand(time(NULL));
+    int key = (int)time(NULL);
+    printf("Time in seconds of when the file %s was encrypted: %ld\n", argv[1], key);
 
-    int key = rand() % 127;
 
     FILE *file = fopen(argv[1], "r+");
 
