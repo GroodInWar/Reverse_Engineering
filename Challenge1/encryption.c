@@ -10,7 +10,7 @@ int main(int argc, char* argv[]) {
     }
 
     int key = (int)time(NULL);
-    printf("Time in seconds of when the file %s was encrypted: %ld\n", argv[1], key);
+    printf("Time in seconds of when the file %s was encrypted: %d\n", argv[1], key);
 
 
     FILE *file = fopen(argv[1], "r+");
